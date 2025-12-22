@@ -1,40 +1,95 @@
-<h1 align="center"> Ninja-Url-Masking </h1>
-<h4 align="center"> Ikiwa unaona repo hii ni muhimu, tafadhali usisahau kuipa star! ⭐️ </h4> 
+<p align="center">
+  <img src="logo.png" alt="Cyber Ninja Logo" width="200" height="200">
+</p>
+
+<h1 align="center"> 🥷 Ninja-Url-Masking 🥷 </h1>
 
 <p align="center">
-    <img width="100%" src="https://img.shields.io/badge/Ninja--Url--Masking-Cyber%20Ninja-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/SECURITY-CRITICAL-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VERSION-1.0.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AUTHOR-CYBER%20NINJA-green?style=for-the-badge" />
 </p>
 
 <p align="center">
-    <a href="https://github.com/CyberNinja-Tz"><img src="https://img.shields.io/github/followers/CyberNinja-Tz?label=Follow%20Cyber%20Ninja&style=social" alt="Follow"></a>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 </p>
 
-**Ninja-Url-Masking** ni tool ya wazi (open-source) iliyoundwa kusaidia kuficha link za phishing na kuzifanya zionekane kama link halali kwa kutumia mbinu za *Social Engineering*.
+<p align="center">
+  <a href="https://github.com/CyberNinja-Tz">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=Greetings+from+Cyber+Ninja;Ethical+Hacker+from+Tanzania;Security+Enthusiast;Download+and+Stay+Safe!">
+  </a>
+</p>
 
-> [!IMPORTANT]
-> Tool hii ni kwa ajili ya majaribio na Elimu pekee (Educational Purposes Only).
-
-> [!CAUTION] 
-> **Cyber Ninja sisapoti waalafu wa mtandao kwaiyo tumia tool hii kwa mazingira yako binafsi.**
-> <h4> DISCLAIMER </h4> 
-> Ni jukumu la watumiaji kuitumia tool hii kwa maadili. Matumizi yoyote kinyume na sheria ni jukumu la mtumiaji mwenyewe. Hakikisha una ruhusa ya maandishi kabla ya kufanya majaribio yoyote ya kiusalama (Penetration Testing).
+<p align="center">
+  <img src="https://img.shields.io/github/stars/CyberNinja-Tz/Ninja-Url-Masking?style=social" />
+  <img src="https://img.shields.io/github/forks/CyberNinja-Tz/Ninja-Url-Masking?style=social" />
+</p>
 
 ---
 
-### 🥷 Kunihusu (About Me - Cyber Ninja)
-- 💻 **Ethical Hacker & Security Enthusiast** kutoka Tanzania.
-- 🛠️ Napenda kutengeneza tools za usalama wa mtandao kurahisisha kazi za kiufundi.
-- 🎯 Lengo langu ni kueneza uelewa wa usalama wa mtandao (Cyber Security Awareness).
+### 🚨 POLICE ALERT MODE 🚨
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1710770563074-6d9cc0d3e338?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D="45%">
+ 
+</p>
 
-### 🚀 Run Online Free On Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CyberNinja-Tz/Ninja-Url-Masking/blob/main/Ninja-Url-Masking.ipynb)
+> [!CAUTION]
+> **WARNING TO SCAMMERS:** Cyber Ninja sisapoti waalafu wa mtandao. Tool hii imetengenezwa kwa ajili ya kufundishia na mazingira salama pekee. Ukikiuka sheria, unajibeba mwenyewe!
 
-### Mfano wa Matumizi:
-```text
-Phishing link yako: [https://example.com/login](https://example.com/login)
+---
 
-Custom domain unayotaka: gmail.com
+ ⭔ Key Features:
+> URL Masking: Inaruhusu watumiaji kufunika URLs kwa domain wanazotaka na maneno ya kijasusi (phishing keywords).
 
-Phishing keyword: account-verify
+> Multiple URL Shorteners: Tool hii inasupport huduma nyingi kama TinyURL, osdb, dagd, na clckru kwa mpigo.
 
-Output: [https://gmail.com-account-verify](https://gmail.com-account-verify)@[tinyurl.com/xyz123](https://tinyurl.com/xyz123)
+> Input Validation: Inahakiki kama link na domain uliyoweka ni sahihi ili kuzuia tool kufeli wakati wa kazi.
+
+> User-Friendly Interface: Imetengenezwa kwa muonekano rahisi (Terminal UI) unaoeleweka haraka.
+  
+   -----------------------------------------
+
+
+
+📊 Mfano wa Matumizi (Usage Example)
+
+Original link  : [https://ngrok.com/xyz](https://ngrok.com/xyz)
+
+
+Custom Domain  : facebook.com
+
+
+Keyword        : free-data
+
+
+Masked Result  : [https://facebook.com-free-data](https://facebook.com-free-data)@[tinyurl.com/shortlink](https://tinyurl.com/shortlink)
+
+-----------------------------------------
+
+
+
+### 🛠️ Kabla ya Kuanza (Pre-requisites)
+Ili usipate `ModuleNotFoundError`, lazima uwe na Python 3 na u-install library hii muhimu kwanza:
+
+
+-----------------------------------------
+
+
+```bash
+# Kwa watumiaji wa Kali Linux na Ubuntu (Standard fix)
+sudo apt update && sudo apt install python3-pip -y
+sudo pip3 install pyshorteners --break-system-packages
+
+# kuinstall past kwenye terminal yako
+# 1. Clone tool kutoka GitHub
+git clone [https://github.com/CyberNinja-Tz/Ninja-Url-Masking.git](https://github.com/CyberNinja-Tz/Ninja-Url-Masking.git)
+
+# 2. Ingia kwenye folder la tool
+cd Ninja-Url-Masking
+
+# 3. Install requirements zote
+pip3 install -r requirements.txt
+
+# 4. Run tool yako
+python3 Ninja-Url-Masking.py
+
