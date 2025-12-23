@@ -72,6 +72,9 @@ Masked Result  : [https://facebook.com-free-data](https://facebook.com-free-data
 Ili usipate `ModuleNotFoundError`, lazima uwe na Python 3 na u-install library hii muhimu kwanza:
 
 
+### Jinsi ya kutumia Ninja-url-masking  --->>  https://youtu.be/ZmZLg5jFUZ8
+
+
 -----------------------------------------
 
 
