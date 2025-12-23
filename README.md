@@ -82,7 +82,7 @@ sudo pip3 install pyshorteners --break-system-packages
 
 # kuinstall past kwenye terminal yako
 # 1. Clone tool kutoka GitHub
-git clone [https://github.com/CyberNinja-Tz/Ninja-Url-Masking.git](https://github.com/CyberNinja-Tz/Ninja-Url-Masking.git)
+git clone https://github.com/CyberNinja-Tz/Ninja-Url-Masking.git
 
 # 2. Ingia kwenye folder la tool
 cd Ninja-Url-Masking
